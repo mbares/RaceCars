@@ -56,7 +56,6 @@ public class SerializationManager : MonoBehaviour
     {
         string[] parts = data.Split('|');
         raceStarter.vehicleBody = FindVehicleBodyByName(parts[0]);
-        Debug.Log(raceStarter.name + " " + raceStarter.vehicleBody);
         raceStarter.vehicleColor = FindVehicleColorByName(parts[1]);
         raceStarter.engine = FindEngineByName(parts[2]);
         raceStarter.tires = FindTiresByName(parts[3]);
