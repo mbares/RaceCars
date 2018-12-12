@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu(menuName = "Parts/Engine")]
-public class Engine : ScriptableObject
+public class Engine : VehiclePart
 {
     public int maxSpeedCoefficient;
 }

@@ -11,5 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be8685b7ed6d316469549e88735d421f, type: 3}
   m_Name: Sport2
   m_EditorClassIdentifier: 
+  name: Sport2
   sprite: {fileID: 21300004, guid: 4d77124dbe367fe4ba0fdd8070897623, type: 3}
   aerodynamicsCoefficient: 4
