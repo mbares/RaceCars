@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f87359508ff8194eb20fef63cae1722, type: 3}
+  m_Name: RaceStarter1
+  m_EditorClassIdentifier: 
+  vehicleBody: {fileID: 11400000, guid: 4d07793e73bdc7e4cb4385cda1855579, type: 2}
+  vehicleColor: {fileID: 11400000, guid: 67d686bce0601fa469f946caf89adf52, type: 2}
+  engine: {fileID: 11400000, guid: c8d880a975a682644a7c77a89c583eea, type: 2}
+  tires: {fileID: 11400000, guid: 4c0cf6e3df5586049a14251ab710a50f, type: 2}
