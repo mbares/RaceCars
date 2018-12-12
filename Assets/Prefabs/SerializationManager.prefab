@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1076009821314804}
+  m_IsPrefabParent: 1
+--- !u!1 &1076009821314804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4476602528023768}
+  - component: {fileID: 114965094973973616}
+  - component: {fileID: 114694029771818230}
+  m_Layer: 0
+  m_Name: SerializationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4476602528023768
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076009821314804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114694029771818230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076009821314804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b750ecdb437f61d41be96f2b09e97804, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventResponsePairs:
+  - gameEvent: {fileID: 0}
+    response:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - gameEvent: {fileID: 0}
+    response:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+--- !u!114 &114965094973973616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076009821314804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d0ff09206f38434a8d8a00bc66d3520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raceStarter1: {fileID: 11400000, guid: 104cdd78826b5d14485817c2aac82aab, type: 2}
+  raceStarter2: {fileID: 11400000, guid: ca0c84234eccbf549a3e7a9f084613b8, type: 2}
+  raceStarter3: {fileID: 11400000, guid: 52990af15ca119648bc9fb4775e4a654, type: 2}
+  bodies:
+  - {fileID: 11400000, guid: 0f1eab89805762045866254519c45cf8, type: 2}
+  - {fileID: 11400000, guid: 60d3fc078f853f84c85bdd2ddb1a83b1, type: 2}
+  - {fileID: 11400000, guid: 4d07793e73bdc7e4cb4385cda1855579, type: 2}
+  - {fileID: 11400000, guid: 62993b26a443baf44a22f68048c90a24, type: 2}
+  colors:
+  - {fileID: 11400000, guid: 67d686bce0601fa469f946caf89adf52, type: 2}
+  - {fileID: 11400000, guid: e0a6c0d1264fc8d40ae00558c1a30d6b, type: 2}
+  - {fileID: 11400000, guid: 42cb5ce4464f0e64bb245064f06adcc5, type: 2}
+  - {fileID: 11400000, guid: 1d7099d775e56d4439d03dced64f54e4, type: 2}
+  engines:
+  - {fileID: 11400000, guid: c8d880a975a682644a7c77a89c583eea, type: 2}
+  - {fileID: 11400000, guid: fb78a3317c1b05a4d94e4969575c0712, type: 2}
+  - {fileID: 11400000, guid: c1150d6c405e8f74bb73a37325707301, type: 2}
+  - {fileID: 11400000, guid: 081fb607066bc294f89e410c8bef8f0d, type: 2}
+  tires:
+  - {fileID: 11400000, guid: 4c0cf6e3df5586049a14251ab710a50f, type: 2}
+  - {fileID: 11400000, guid: 49702019ba47f614d9f3b79344b6fd00, type: 2}
+  - {fileID: 11400000, guid: 87453a67c4920ad4b9049f079f54d376, type: 2}
+  - {fileID: 11400000, guid: 1daeee8ffed184f429b56d40848bad35, type: 2}

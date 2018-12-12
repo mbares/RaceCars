@@ -11,4 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 775ff59faf4a52a409b26ea72e114ed3, type: 3}
   m_Name: Electric
   m_EditorClassIdentifier: 
+  name: Electric
   maxSpeedCoefficient: 1

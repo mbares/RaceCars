@@ -11,5 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9508248ac32d50f478d1b6ebd6f34d39, type: 3}
   m_Name: Red
   m_EditorClassIdentifier: 
+  name: Red
   reactionTimeCoefficient: 2
   color: {r: 1, g: 0, b: 0, a: 1}

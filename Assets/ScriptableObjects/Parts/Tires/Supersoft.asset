@@ -11,4 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f10f172e83f564e810d0042dc33205, type: 3}
   m_Name: Supersoft
   m_EditorClassIdentifier: 
+  name: Supersoft
   accelerationCoefficient: 4
